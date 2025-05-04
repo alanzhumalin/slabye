@@ -197,7 +197,7 @@ const getApplicationStatusForEvent = (applications: Application[], eventId: stri
     {event.images && event.images.length > 0 ? (
       <Box mb={3}>
 <img
-  src={`http://localhost:4040${event.images[0]}`}
+  src={`http://backend:4040${event.images[0]}`}
   alt={event.title}
   style={{ width: "100%", borderRadius: "8px", objectFit: "cover", maxHeight: "300px" }}
 />
